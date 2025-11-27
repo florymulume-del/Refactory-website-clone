@@ -29,9 +29,15 @@ display: flex;
 flex-direction: column-reverse;
 justify-content: center; */
 
+
+
+
+
+
+
 /*navigation bar*/
   .navbar {
-background-color: #333;
+background-color: lightgrey;
 position: fixed; 
 width: 100%;
 top: 0;
@@ -57,14 +63,16 @@ left: 0;
 .menu a {
     text-decoration: none;
     /* color: #333; */
-    color: white;
+    color:black;
     font-weight: 500; 
+    font-family:  sans-serif;
+    
    
 } 
 /*hero section*/
 
  .section-hero{
-    background-image: url(https://refactory.academy/wp-content/uploads/2025/09/MAL_6861.jpg);
+    background-image: url(https://refactory.academy/wp-content/uploads/2025/08/0G2A8223.jpg);
      height: 100vh;  
      
     
@@ -94,7 +102,7 @@ button{
    background-color: #bad833 ;
   color: white;
   padding: 12PX 24px;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 16PX;
   margin: 10px;
   cursor: pointer;
@@ -153,18 +161,17 @@ color: rgb(30, 30, 156);
 /* footer*/
 footer{
       
-      background-image: url(https://media.licdn.com/dms/image/v2/C4E12AQHA1fpx9nJkzA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1561656430702?e=2147483647&v=beta&t=ZbCIcnInX6nPkNplzkEKTMk7SmW2odZNLnIjRddm3vg);
+      background-color: #2C1A4D;
 }
-
 
 .container-footer{       /* main div container in footer*/
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-    gap: 50px;}
+    gap: 40px;}
   
 .container-footer h3 {     /* different headlines 3 in footer */
-    color:skyblue;
+    color:teal;
     font-size: 25px;
     font-family: sans-serif;
 
@@ -186,13 +193,14 @@ footer{
     display: flex;
     gap: 20px;
     list-style: none;
+   
     
 }
 .social-links li a{
       display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #333;
+  background-color:blue;
   color: white;
   border-radius: 50%;
   text-align: center;

@@ -1,7 +1,7 @@
 /* ============================
    GLOBAL STYLES
 ============================ */
-
+/* Body: resets padding/margin, sets font, line-height and default text color */
 body {
   padding: 0;
   margin: 0;
@@ -9,23 +9,25 @@ body {
   line-height: 1.6;
   color: #333;
 }
-
+/* Images: make them responsive */
 img {
   max-width: 100%;
   height: auto;
 }
 
+/* Buttons: default styling for all buttons */
 button {
   background-color:#a0be1a;
   color: white;
   padding: 12px 25px;
-  border-radius: 6px;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
   font-weight: bold;
   transition: all 0.3s ease;
 }
 
+/* Buttons hover effect */
 button:hover {
   background-color: #4a1f6d;
 }
@@ -33,7 +35,7 @@ button:hover {
 /* ============================
    NAVIGATION
 ============================ */
-
+/* Navbar container: fixed at top with shadow */
 .navbar {
   background-color: #fff;
   position: fixed;
@@ -43,44 +45,36 @@ button:hover {
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+/* Navbar inner container: flex layout for logo and menu */
 .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
 }
-
+/* Menu (ul) styling */
 .menu {
   display: flex;
   list-style: none;
   gap: 25px;
   margin: 0;
 }
-
+/* Menu links */
 .menu a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   transition: color 0.3s;
 }
-
+/* Menu link hover effect */
 .menu a:hover {
   color: #6B2D8F;
 }
-
-/* Hamburger icon */
-.hamburger {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  color: #333;
-}
-
 /* ============================
    HERO SECTION
 ============================ */
 
+/* Hero section background and layout */
 .section-hero {
   background-image: url(https://refactory.academy/wp-content/uploads/2025/08/0G2A8223.jpg);
   background-size: cover;
@@ -91,27 +85,27 @@ button:hover {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
-  color: white;
-   
+  color: white;   
 }
+/* Hero container: vertical spacing */
 .container-hero{
-    padding-top: 310px;
+    padding-top: 310px;/* space from top */
 
 }
-
+/* Hero main heading */
 .container-hero h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 15px;
   text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
 }
-
+/* Hero subheading */
 .container-hero h3 {
   font-size: 1.5rem;
   margin-bottom: 25px;
   text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
 }
-
+/* Collaborate buttons container */
 .collaborate a {
   margin: 0 10px;
   display: inline-block;
@@ -122,26 +116,26 @@ button:hover {
   border-radius: 6px;
   transition: all 0.3s ease;
 }
-
+/* Specific button colors */
 .collaborate a:nth-child(1) { background-color: #6B2D8F; }
 .collaborate a:nth-child(2) { background-color: #C0FF33; color: white; }
 .collaborate a:nth-child(3) { background-color: #fff; color: #6B2D8F; }
-
+/* Hover effect for buttons */
 .collaborate a:hover {
  transform: translateY(-3px);
-  opacity: 0.9;  
-  
+  opacity: 0.9;   
 }
 
 /* ============================
    ABOUT SECTION
 ============================ */
 
+/* About section styling */
 .about-section {
   background-color: #f5f5f5;
   padding: 80px 20px;
 }
-
+/* Container for image + text */
 .container-about {
   display: flex;
   justify-content: center;
@@ -154,18 +148,19 @@ button:hover {
    FEATURED COURSES
 ============================ */
 
+/* Exploration container */
 .container-exploration {
   text-align: center;
   padding: 50px 20px;
 }
-
+/* Card container: flex layout for courses */
 .card {
   display: flex;
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
 }
-
+/* Individual course card styling */
 .card > div {
   flex: 1 1 300px;
   background-color: #fff;
@@ -175,19 +170,18 @@ button:hover {
   transition: transform 0.3s ease;
 }
 
+/* Card hover effect */
 .card > div:hover {
   transform: translateY(-5px);
 }
-.container-exploration h3{
-   color: rgb(14, 87, 87);}
-
-   .container-exploration h2{
-    color: blueviolet;}
+/* Headings colors */
+.container-exploration h3{ color: rgb(14, 87, 87);}
+.container-exploration h2{color: blueviolet;}
 
 /* ============================
    CONTENT SECTION
 ============================ */
-
+/* Container for content and image */
 .container-content {
   display: flex;
   justify-content: center;
@@ -195,20 +189,20 @@ button:hover {
   flex-wrap: wrap;
   padding: 50px 20px;
 }
-
+/* Content heading styling */
 .content h1 { color: #6B2D8F; font-weight: bold; }
 .content h3 { margin-bottom: 15px; }
 
 /* ============================
    FOOTER
 ============================ */
-
+/* Footer container */
 footer {
   background-color: #2C1A4D;
   color: white;
   padding: 50px 20px 20px;
 }
-
+/* Footer columns container */
 .container-footer {
   display: flex;
   justify-content: center;
@@ -216,33 +210,30 @@ footer {
   flex-wrap: wrap;
   text-align: center;
 }
-
+/* Footer headings */
 .container-footer h3 {
   color: teal;
 }
-
+/* Footer menu list */
 .menu-footer {
   list-style: none;
   padding: 0;
  text-align: left;
-
 }
-
+/* Footer links */
 .menu-footer a { 
-    color: white; text-decoration: none; 
-    
-    
-}
-
+    color: white; text-decoration: none;}
+/* Footer links hover effect */
 .menu-footer a:hover { color: #6B2D8F; }
 
+/* Social links container */
 .social-links {
   display: flex;
   /* justify-content:flex-start; */
   gap: 15px;
   list-style: none;
 }
-
+/* Social link icons */
 .social-links li a {
   width: 40px;
   height: 40px;
@@ -253,25 +244,23 @@ footer {
   font-size: 18px;
   background-color: blue;
   color: white;
-  transition: 0.3s;
-  
+  transition: 0.3s;  
 }
 
-.social-links li a:hover {
-  transform: scale(1.1);
-}
+/* Social hover effect */
+.social-links li a:hover {transform: scale(1.1);}
 
 /* ============================
    TABLET RESPONSIVE
 ============================ */
-
+ /* Stack flex sections vertically */
 @media (max-width: 768px) {
   .container-about,
   .container-content,
   .card,
   .container-footer {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column;/* vertical stacking */
+    text-align: center; /* center text on tablets */
   }
 
   .container-hero h1 { font-size: 2.5rem; }
@@ -282,30 +271,30 @@ footer {
    MOBILE RESPONSIVE
 ============================ */
 
-@media (max-width: 480px) {
-  .hamburger { display: block; }
-
+ @media (max-width: 480px) {
+  .hamburger { display: block; } 
+/* Mobile menu hidden by default */ 
   .menu {
-    display: none;
-    flex-direction: column;
-    background: #fff;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    gap: 15px;
-    z-index: 999;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: none;/* hide menu */
+    flex-direction: column; /* vertical layout */
+    background: #fff; /* menu background */
+    position: absolute; /* overlay menu */
+    top: 60px;  /* below navbar */
+    left: 0;  /* align left */
+    width: 100%;  /* full width */
+    padding: 20px; /* inner spacing */
+    gap: 15px; /* spacing between links */
+    z-index: 999; /* above other content */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);/* shadow */
   }
 
-  .menu.active {
-    display: flex;
-  }
-
+  /* Active mobile menu */
+  .menu.active { display: flex;}/* show menu when active */
+ /* Hero text adjustments */
   .container-hero h1 { font-size: 2rem; }
   .container-hero h3 { font-size: 1rem; }
 
+  /* Stack flex sections vertically and reduce gaps */
   .container-about,
   .container-content,
   .card,

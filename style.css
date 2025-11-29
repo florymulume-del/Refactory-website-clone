@@ -274,19 +274,7 @@ footer {
  @media (max-width: 480px) {
   .hamburger { display: block; } 
 /* Mobile menu hidden by default */ 
-  .menu {
-    display: none;/* hide menu */
-    flex-direction: column; /* vertical layout */
-    background: #fff; /* menu background */
-    position: absolute; /* overlay menu */
-    top: 60px;  /* below navbar */
-    left: 0;  /* align left */
-    width: 100%;  /* full width */
-    padding: 20px; /* inner spacing */
-    gap: 15px; /* spacing between links */
-    z-index: 999; /* above other content */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);/* shadow */
-  }
+
 
   /* Active mobile menu */
   .menu.active { display: flex;}/* show menu when active */

@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <!-- Add Font Awesome CDN in <head> -->
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>
+   <!-- Importing Font Awesome library for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
@@ -26,9 +23,7 @@
               alt=""
             />
           </div>
-
           <!-- menu items :navigation link -->
-
           <ul class="menu">
             <li>
               <a href="">About Us</a>
@@ -54,13 +49,18 @@
             <li>
               <a href="">FAQs</a>
             </li>
+           
           </ul>
+     
+
         </div>
       </nav>
     </header>
 
     <!-- Hero section-->
-    <section class="section-hero">
+
+    <section class="section-hero" > 
+
       <div class="container-hero">
         <!-- heading-->
         <h1 style="font-size: 40px;font-weight: bold;color: white;">Transforming Africa's Tech Talent for the Future</h1>
@@ -70,22 +70,27 @@
         <!-- call to action-->
 
         <div class="collaborate">
-          <a style="background-color: #6B2D8F;">Partener With us</a>
-          <a  style="background-color: #C0FF33;"href="">Explore Programs</a>
-          <a  style="background-color: white;color: #6B2D8F;"href="">Hire talent</a>
+          <a style="background-color: #6B2D8F;font-weight: bold;">Partener With us<i style="padding-left: 5px;" class="fas fa-arrow-right"></i></a>
+          <a  style="background-color: #C0FF33; font-weight: bold;"href="">Explore Programs<i  style="padding-left: 5px;" class="fas fa-arrow-right"></i></a>
+          <a  style="background-color: white;color: #6B2D8F;font-weight: bold;"href="">Hire talent<i style="color: #6B2D8F;padding-left: 5px;" class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </section>
 
-    <!-- content section-->
-    <section class="section-content">
-      <div class="container-content">
+    <!-- About refactory session-->
+
+    <section class="about-section">
+      <div class="container-about">
+
         <div class="box">
           <!-- heading h1 -->
           <h1>Refactory Academy</h1>
 
-          <!-- heading h2 -->
+          <!-- subheading h2 -->
           <h2 style="color: rgb(14, 87, 87);font-family: sans-serif;">Empowering Uganda's Next Generation of Tech Talent</h2>
+          <!-- body text-->
+
+           <!-- first paragraph describing refacory's mission -->
           <p>
             Refactory is a software-skilling academy addressing the need to
             produce skilled<br />
@@ -94,40 +99,50 @@
             developer talent and experts responsive to the needs of the
             ecosystem.<br />
           </p>
+          <!-- second paragraph describing refacory's mission -->
+
           <p>
             Refactory Academy is revolutionizing the tech industry in Uganda by
             blending essential <br />
             in-demand tech skills with soft skills needed by the tech industry.
           </p>
-          <button>Learn More</button>
+          <!-- learn more:button -->
+
+          <button>Learn More<i style="padding-left: 5px;" class="fas fa-arrow-right"></i></button>
         </div>
-        <!-- image-->
-        <div>
+
+        <!--Right side image -->
+        <div style="padding-bottom: 50px;"> 
           <img
-            width="350"
-            height="300"
+            width="450"
+            height="350"
             src="https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg"
             alt=""
           />
         </div>
+
       </div>
     </section>
 
-    <!-- exploration section -->
+    <!-- Featured courses section -->
     <section>
+      <!-- parent div -->
       <div class="container-exploration">
+         <!-- headings -->
         <h3>Start your dream career!</h3>
+        <!-- main title -->
         <h2>Explore Featured Courses</h2>
-        <!-- images-->
 
-        <div class="img">
+        <!--card1:fondationnal courses-->
+
+        <div class="card"><!--main div card--> 
+          <!-- first card column :fondationnal C. -->
           <div>
             <img
               width="350"
               height="300"
-              src="https://refactory.academy/wp-content/uploads/2025/08/MAL_6149-768x512.jpg"
-              alt=""
-            />
+              src="https://refactory.academy/wp-content/uploads/2025/08/MAL_6149-768x512.jpg" alt=""/>
+                 <!-- title Foundational Courses -->
             <h2>Foundational Courses</h2>
             <p>
               These courses build the essential <br />
@@ -136,28 +151,30 @@
             </p>
             <button>Learn more</button>
           </div>
+
+          <!-- second card column:Apprenticeship Course. -->
           <div>
             <img
               width="350"
               height="300"
-              src="https://refactory.academy/wp-content/uploads/2025/09/MAL_6245-768x512.jpg"
-              alt=""
-            />
+              src="https://refactory.academy/wp-content/uploads/2025/09/MAL_6245-768x512.jpg" alt="" />
+                <!-- title Apprenticeship Course -->
             <h2>Apprenticeship Course</h2>
             <p>
-              TDesigned to provide aspiring software <br />developers with
+              Designed to provide aspiring software <br />developers with
               technical training and <br />
               industry-led mentorship.
             </p>
             <button>Learn more</button>
           </div>
+
+          <!-- Third card column:Advanced Courses -->
           <div>
             <img
               width="350"
               height="300"
-              src="https://refactory.academy/wp-content/uploads/2025/07/MAL_6484-768x512.jpeg"
-              alt=""
-            />
+              src="https://refactory.academy/wp-content/uploads/2025/07/MAL_6484-768x512.jpeg" alt=""/>
+              <!-- title Advanced Courses -->
             <h2>Advanced Courses</h2>
             <p>
               Go beyond the basics to develop mastery <br />in high-demand
@@ -165,19 +182,28 @@
             </p>
             <button>Learn more</button>
           </div>
+
         </div>
       </div>
     </section>
-    <!-- content section 2 -->
+
+
+    <!-- content section  -->
     <section>
-      <div class="container-content2">
-        <div class="content2">
+      <!-- parent div -->
+      <div class="container-content">
+
+        <!-- first column -->
+        <div class="content">
+          <!-- main title -->
           <h1>10X Program</h1>
+          <!-- sub title -->
           <h3>
             Inclusively Equipping Young Women in Advanced Digital Skills &
             Connecting <br />
             Them to Dignified Work
           </h3>
+          <!-- main paragraph refactory mission -->
           <p>
             Refactory Academy is empowering young women with relevant tech
             skills and life- <br />
@@ -185,17 +211,19 @@
             economy as individuals <br />
             and as business owners.
           </p>
-          <button>Learn more</button>
+          <button>Learn more<i style="padding-left: 5px;" class="fas fa-arrow-right"></i></button>
         </div>
-        <div>
+
+          <!-- second column -->
+        <div style="padding-bottom: 50px;">
           <img
             width="450"
             height="300"
-            src="https://refactory.academy/wp-content/uploads/2025/09/MAL_6260-2048x1365.jpg"
-            alt=""
-          />
+            src="https://refactory.academy/wp-content/uploads/2025/09/MAL_6260-2048x1365.jpg" alt="" />
         </div>
+
       </div>
+
     </section>
 
 
@@ -203,48 +231,73 @@
 
     <footer>
       <div class="container-footer">
-         <!-- first column of the footer -->
-        <div>
+         <!-- first column about refactory -->
+        <div style="text-align: left;">
           <img width="130" height="50" src="https://refactory.academy/wp-content/uploads/2025/07/Refactory-Logo-White.png" alt="" />
-          <p>
+          <p >
             Refactory is a Tech skilling <br />
             Academy. We are the <br />
             industry’s blueprint for hiring <br />
             software talent.
           </p>
-          <ul class="social-links">
-  <li><a href="https://www.facebook.com" _><i class="fab fa-facebook-f"></i></a></li>
-  <li><a href="https://www.x.com" ><i class="fab fa-x-twitter"></i></a></li>
-  <li><a href="https://www.instagram.com" ><i class="fab fa-instagram"></i></a></li>
-  <li><a href="https://www.linkedin.com" ><i class="fab fa-linkedin-in"></i></a></li>
-   <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          <!-- list of social link display in flex -->
+          <ul  class="social-links">
+             <li ><a href="https://www.facebook.com" _><i class="fab fa-facebook-f"></i></a></li>
+             <li><a href="https://twitter.com" > <i class="fab fa-twitter"></i></a>
+             <li><a style="background-color: #dd2a7b;" href="https://www.instagram.com" ><i class="fab fa-instagram"></i></a></li>
+             <li><a href="https://www.linkedin.com" ><i class="fab fa-linkedin-in"></i></a></li>
+             <li><a style="background-color:red;" href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          </ul>
         </div>
 
         <!-- second colum containing ressources -->
-        <div>
-         <h3>Ressources</h3>
-        <ul class="menu-footer">
-          <li><a href="">Stories</a></li>
-          <li><a href="">Careers</a></li>
-          <li><a href="">FAQs</a></li>
-          <li><a href="">Testionials</a></li>
-          <li><a href="">Privacy Policy</a></li>
-        </ul>
+        <div style="text-align: left;">
+           <h3>Ressources</h3>
+           <!-- list of different ressources -->
+           <ul class="menu-footer">
+               <li><a href="">Stories</a></li>
+               <li><a href="">Careers</a></li>
+               <li><a href="">FAQs</a></li>
+              <li><a href="">Testionials</a></li>
+              <li><a href="">Privacy Policy</a></li>
+           </ul>
         </div>
 <!-- 
         third column containing get in touch -->
-        <div>
+        <div style="text-align: left;">
           <h3>Get in touch</h3>
+          <!-- list of contacts  -->
           <ul class="menu-footer">
-            <li><a href="">+256 (0) 3932544046</a></li>
-            <li><a href="">+256 (0) 759243109</a></li>
-            <li><a href="">partnership@refactory.academy</a></li>
-            <li><a href="">study@refactory.academy</a></li>
+            <li>
+              <a   style="color:teal;padding-right: 10px;" href="" >
+              <i class="fas fa-phone"></i>
+              </a>
+              <a href="">+256 (0) 3932544046</a>    
+            </li>
+
+            <li><a  style="color:teal;padding-right: 10px; "href="https://wa.me/1234567890?text=Hello%20I%20saw%20your%20website" target="_blank">
+              <i class="fab fa-whatsapp"></i></a><a href="">+256 (0) 759243109</a>
+            </li>
+
+            <li>
+              <a   style="color:teal;padding-right: 10px;"  href="">
+              <i class="fas fa-envelope"></i>
+              </a>
+              <a  href="">partnership@refactory.academy</a>
+            </li>
+
+            <li>
+              <a  style="color: teal;padding-right: 10px;"  href="">
+              <i class="fas fa-envelope"></i>
+             </a>
+              <a href="" target="_blank">study@refactory.academy</a>
+            </li>
+
           </ul>
         </div>
 
         <!-- forth column containig visit us -->
-      <div>
+      <div style="text-align: left;">
         <h3>Visit us</h3>
         <p>
           Refactory Academy, 2nd Floor,<br />

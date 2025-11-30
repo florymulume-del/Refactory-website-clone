@@ -272,10 +272,6 @@ footer {
 ============================ */
 
  @media (max-width: 480px) {
-  .hamburger { display: block; } 
-/* Mobile menu hidden by default */ 
-
-
   /* Active mobile menu */
   .menu.active { display: flex;}/* show menu when active */
  /* Hero text adjustments */
